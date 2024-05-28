@@ -1,0 +1,142 @@
+
+body{
+   
+    
+}
+.menu{
+    margin-left: -38%;
+    padding-left: 0px;
+    /*background: linear-gradient(to right, rgb(250, 112, 154) 0%, rgb(254, 225, 64) 100%);*/
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    overflow: hidden;
+    padding: 20px;
+    padding-right: 30px;
+    border: rgb(197, 197, 197) solid 1px;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  
+    
+}
+.sociable {
+    width: 80px;
+    height: 80px;
+    margin-left: -23px;
+}
+h2{
+    padding-left: 45px;
+    margin-top: -62px;
+}
+
+.homebar{
+    margin-top: 50px;
+    cursor: pointer;
+    padding: 2px;
+}
+.hpost{
+    padding: 2px;
+}
+.homebar:hover{
+    background:linear-gradient(to right, rgb(250, 112, 154) 0%, rgb(254, 225, 64) 100%);
+    border-radius: 10px;
+}
+.logout{
+    margin-top: 190px;
+    cursor: pointer;
+    padding: 2px;
+}
+.hsettings{
+   
+    padding: 2px;
+}
+.hnotifi{
+    padding: 2px;
+    
+}
+.hprofile{
+    padding: 2px;
+}
+.logout:hover{
+    cursor: pointer;
+    background:linear-gradient(to right, rgb(250, 112, 154) 0%, rgb(254, 225, 64) 100%);;
+   
+    border-radius: 10px;
+}
+.hnotifi:hover{
+    cursor: pointer;
+    background:linear-gradient(to right, rgb(250, 112, 154) 0%, rgb(254, 225, 64) 100%);;
+   
+    border-radius: 10px;
+} 
+.hprofile:hover{
+    cursor: pointer;
+    background: linear-gradient(to right, rgb(250, 112, 154) 0%, rgb(254, 225, 64) 100%);;
+   
+    border-radius: 10px;
+} 
+.hsettings:hover{
+    cursor: pointer;
+    background: linear-gradient(to right, rgb(250, 112, 154) 0%, rgb(254, 225, 64) 100%);;
+
+    border-radius: 10px;
+}
+.hpost:hover{
+    background: linear-gradient(to right, rgb(250, 112, 154) 0%, rgb(254, 225, 64) 100%);;
+    cursor: pointer;
+    border-radius: 10px;
+}
+img{
+    width:  25px;
+    height: 25px;
+    margin-top: 2px;
+    object-fit: cover;
+}
+h3{
+    padding-left: 45px;
+    margin-top: -27px;
+    font-weight: normal;
+}
+.post-container {
+    margin: 20px auto;
+    width: 600px; /* Adjust width as needed */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  
+  .post-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+
+  }
+  
+  .post-form textarea,
+  .post-form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+  }
+  
+  .post-form button {
+    background-color: #ff60b0;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    align-self: center; /* Align submit button to the end */
+  }
+ .rem{
+    text-decoration: none;
+    color: black;
+ }
+ 
+

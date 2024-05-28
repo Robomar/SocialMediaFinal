@@ -1,0 +1,16 @@
+.Notifipg{
+    transition: transform 0.5s ease-in-out;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 400px;
+    height: 100%;
+    overflow: hidden;
+    margin-left: 45px;
+    padding-right: 30px;
+    border:rgb(197, 197, 197) solid 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  
+    
+}

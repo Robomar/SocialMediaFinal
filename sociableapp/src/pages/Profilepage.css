@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+   
+}
+
+.profile-page {
+    padding: 80px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    height: 450px;
+}
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 20px;
+}
+
+.profile-picture img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #e0e0e0;
+    margin-top: -70px;
+}
+
+.profile-details {
+    flex: 1;
+    margin-left: 20px;
+    text-align: left;
+    margin-top: -70px;
+}
+
+.profile-details h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+.profile-details h2 {
+  margin: 0;
+  font-size: 15px;
+  color: #333;
+  margin-top: 5px;
+  margin-left: -40px;
+}
+
+.profile-details p {
+    margin: 5px 0;
+    color: #777;
+    margin-left: 5px;
+}
+
+.edit-profile button {
+    background-color: #4caf50;
+    border: navajowhite;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: -100px;
+    margin-left: -330px;
+    margin-top: 110px;
+    width: 300px;
+    height: 35px;
+  
+}
+
+
+.edit-profile button:hover {
+    background-color: #45a049;
+}
+
+.profile-tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+}
+.tabs-p {
+  font-size: 15px;
+  color: #424040;
+  margin-top: -1000px; /* Adjust margins as needed */
+  margin-left: -320px; /* Adjust margins as needed */
+  margin-bottom: 400px; /* Adjust margins as needed */
+  margin-right: -80px; /* Adjust margins as needed */
+  padding: 100px; /* Adjust padding if needed */
+  text-align: center;
+  display: inline;
+}
+
+
+.tab.active { /* Maintain styles for active tabs */
+  color: #333;
+  font-size: 17px;
+  font-weight: bold;
+  border-bottom: 2px solid #4caf50;
+  margin-bottom: 50px;
+  margin-right: -10px;
+  margin-top: -5px;
+  padding: -100px;
+  text-align: center;
+  position: fixed;
+}
+/* Profilepage.css */
+.username-input {
+    font-size: 20px;
+    border: 1px solid #ccc;
+    padding: 0.5em;
+    margin: 0.5em 0;
+  }
+  
